@@ -15,6 +15,7 @@ The goal is to provide engineers and engineering students with a powerful and ea
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/viga2D.png)
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/vigas3D.png)
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/portico3D.png)
+![image](https://github.com/user-attachments/assets/3495e43b-d05a-4b8f-b3ac-90cfbcc99abd)
 ![image](https://github.com/user-attachments/assets/3fc213eb-336f-4926-9b6b-e3b78e68d1bb)
 
 
