@@ -64,6 +64,9 @@ The StructureTools workbench is still under development and is constantly changi
 
 **Copy assigment support** –  With this tool, to copy assigment section & material from selected one to others --> reduce time for change one by one
 
+![image](https://github.com/user-attachments/assets/0ae870d8-34d9-40dd-8e81-1b4649ffd968)
+
+
 You can see more about the tools in these videos:
 
 * StructureTools - Alpha Version - Workbench Tools and Workflow: https://www.youtube.com/watch?v=AicdjiOc61k
