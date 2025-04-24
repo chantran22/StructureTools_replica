@@ -73,6 +73,7 @@ You can see more about the tools in these videos:
 
 * StructureTools - Alpha Version - Workbench Tools and Workflow: https://www.youtube.com/watch?v=AicdjiOc61k
 * StructureTools - Alpha Version - Calculation of forces of simply supported beams: https://www.youtube.com/watch?v=Ig0SyqJao0Q
+* * StructureTools -  Structure Tool in Freecad: how to use:  (https://github.com/user-attachments/assets/0ae870d8-34d9-40dd-8e81-1b4649ffd968)
 
 ## Development
 You can follow the development of the project here: https://github.com/users/maykowsm/projects/1/views/1
