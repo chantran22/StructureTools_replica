@@ -64,7 +64,7 @@ The StructureTools workbench is still under development and is constantly changi
 
 **Copy member properties** –  With this tool, to copy assigment section & material from selected one to others --> reduce time for change one by one
 
-**Copy assigment support** –  With this tool, to copy assigment section & material from selected one to others --> reduce time for change one by one
+**Copy assignment support** –  With this tool, to copy assigment section & material from selected one to others --> reduce time for change one by one
 
 ![image](https://github.com/user-attachments/assets/0ae870d8-34d9-40dd-8e81-1b4649ffd968)
 
