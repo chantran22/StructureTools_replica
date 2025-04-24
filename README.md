@@ -17,6 +17,7 @@ The goal is to provide engineers and engineering students with a powerful and ea
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/portico3D.png)
 ![](https://github.com/chantran22/StructureTools_replica/tree/main/freecad/StructureTools/resources/screenshots/dome.png)
 
+
 freecad/StructureTools/resources/screenshots/galpao.png
 
 ## Installing
