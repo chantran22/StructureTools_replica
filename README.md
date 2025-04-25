@@ -20,7 +20,7 @@ The goal is to provide engineers and engineering students with a powerful and ea
 
 
 
-freecad/StructureTools/resources/screenshots/galpao.png
+
 
 ## Installing
 
