@@ -2,7 +2,7 @@ import FreeCAD, FreeCADGui, Part, math, os
 from PySide import QtWidgets
 
 ICONPATH = os.path.join(os.path.dirname(__file__), "resources")
-pathFont = os.path.join(os.path.dirname(__file__), "resources/fonts/ARIAL.TTF")
+pathFont = os.path.join(os.path.dirname(__file__), "resources/fonts/Technic.TTF")
 # pathFont = os.path.join(os.path.dirname(__file__), "ARIAL.TTF")
 
 def show_error_message(msg):
