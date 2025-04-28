@@ -155,8 +155,20 @@ class Deflection:
 		
 		return loops
 	
-
-	# Gera as faces
+	
+	def generateWires(self, loops):
+		wires = []
+		for loop in loops:
+			loop.append(loop[0])  
+			loop = [FreeCAD.Vector(value[0], 0, value[1]) for value in loop]
+			
+			edges = [Part.LineSegment(loop[i], loop[i+1]).toShape() for i in range(len(loop)-1)]
+			wire = Part.Wire(edges)
+			wires.append(wire)
+			
+		return wires
+    
+    
 	def generateFaces(self, loops):
 		faces = []
 		for loop in loops:
@@ -223,7 +235,8 @@ class Deflection:
 
 			ordinates = self.separatesOrdinates(values)
 			coordinates = self.generateCoordinates(ordinates, dist)
-			faces = self.generateFaces(coordinates)
+			faces = self.generateWires(coordinates)
+			#faces = self.generateFaces(coordinates)
 			texts = self.makeText(values, matrix[i], dist, fontHeight, precision)
 			
 			# Posiciona o diagrama
@@ -247,11 +260,7 @@ class Deflection:
 			element = element.translate(FreeCAD.Vector(p1[0], p1[1], p1[2]))
 			
 			listDiagram.append(element)
-			# Part.show(element)
-			# Part.show(Part.makeCompound(faces))
-			# for face in faces:
-			#     Part.show(Part.makeCompound(faces))
-		
+				
 		return listDiagram
 
 	def filterMembersSelected(self, obj):
@@ -309,6 +318,82 @@ class Deflection:
 			self.execute(obj)
 
 
+class ViewProviderDiagram:
+	def __init__(self, obj):
+		obj.Proxy = self
+
+	def getIcon(self):
+		return """/* XPM */
+static char * moment_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"32 32 32 1 ",
+"  c None",
+". c #020202",
+"X c #060606",
+"o c #090909",
+"O c #161616",
+"+ c gray9",
+"@ c gray12",
+"# c #0E222A",
+"$ c #142127",
+"% c #14323F",
+"& c #202020",
+"* c #202121",
+"= c #222222",
+"- c gray14",
+"; c #313131",
+": c #3A3A3A",
+"> c gray23",
+", c #3C3C3C",
+"< c #024059",
+"1 c #05425C",
+"2 c #124055",
+"3 c #064A69",
+"4 c #045273",
+"5 c #095C7F",
+"6 c #434343",
+"7 c gray27",
+"8 c #0D6890",
+"9 c #086994",
+"0 c #0084BE",
+"q c #0085C0",
+"w c #0095D5",
+"e c #009DE1",
+/* pixels */
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"              286               ",
+"              30,               ",
+"              30,               ",
+"              <q*               ",
+"              9e1               ",
+"              5w#               ",
+"              %4                ",
+"               $                ",
+"   ;;                     -     ",
+"     &                   @      ",
+"         O          +=          ",
+"            7>o.X:              ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                ",
+"                                "
+};
+		"""
 
 
 class CommandDeform():
@@ -328,7 +413,7 @@ class CommandDeform():
 			doc = FreeCAD.ActiveDocument
 			obj = doc.addObject("Part::FeaturePython", "Deflection")
 			Deflection(obj, objCalc, listSelects)
-			#ViewProviderDiagram(obj.ViewObject) 
+			ViewProviderDiagram(obj.ViewObject) 
 
 		else:
 			show_error_message('Deve ser selecionado um objeto calc para traçar o diagrama')
