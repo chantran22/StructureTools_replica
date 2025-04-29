@@ -88,7 +88,7 @@ Please consider supporting the project so I can dedicate more time to it: [  Pat
 
 ## Dependencies
 
-['numpy']
+['numpy','scipy','prettytable','PyniteFEA']
 
 ## Maintainer
 
