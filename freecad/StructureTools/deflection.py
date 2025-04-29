@@ -222,7 +222,7 @@ class Deflection:
 
 
 	# Gera o diagrama da matriz passada como argumento
-	def makeDiagram(self, matrix,nodes, members, orderMembers, nPoints, rotacao, escale, fontHeight, precision, drawText):
+	def makeDibgram(self, matrix,nodes, members, orderMembers, nPoints, rotacao, escale, fontHeight, precision, drawText):
 		
 		# e = 1e-11
 		listDiagram = []
@@ -290,9 +290,9 @@ class Deflection:
 
 		listDiagram = []
 		if obj.DeflectionZ:
-			listDiagram += self.makeDiagram(self.getMatrix(obj.ObjectBaseCalc.DeflectionZ), nodes, members, orderMembers, obj.ObjectBaseCalc.NumPointsDeflection, 0, obj.ScaleDefl, obj.FontHeight, obj.Precision, obj.DrawText)
+			listDiagram += self.makeDibgram(self.getMatrix(obj.ObjectBaseCalc.DeflectionZ), nodes, members, orderMembers, obj.ObjectBaseCalc.NumPointsDeflection, 0, obj.ScaleDefl, obj.FontHeight, obj.Precision, obj.DrawText)
 		if obj.DeflectionY:
-			listDiagram += self.makeDiagram(self.getMatrix(obj.ObjectBaseCalc.DeflectionY), nodes, members, orderMembers, obj.ObjectBaseCalc.NumPointsDeflection, 0, obj.ScaleDefl, obj.FontHeight, obj.Precision, obj.DrawText)
+			listDiagram += self.makeDibgram(self.getMatrix(obj.ObjectBaseCalc.DeflectionY), nodes, members, orderMembers, obj.ObjectBaseCalc.NumPointsDeflection, 0, obj.ScaleDefl, obj.FontHeight, obj.Precision, obj.DrawText)
 		
 		
 		
@@ -377,13 +377,13 @@ static char * moment_xpm[] = {
 "              <q*               ",
 "              9e1               ",
 "              5w#               ",
-"              %4                ",
-"               $                ",
-"   ;;                     -     ",
-"     &                   @      ",
-"         O          +=          ",
-"            7>o.X:              ",
-"                                ",
+"              %4%               ",
+"              $$$               ",
+"   ;;+                    +;    ",
+"     &++                &++     ",
+"     += O+          += O+       ",
+"          += 7>o.X: +=          ",
+"             ++=++              ",
 "                                ",
 "                                ",
 "                                ",
