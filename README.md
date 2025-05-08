@@ -11,7 +11,7 @@ The goal is to provide engineers and engineering students with a powerful and ea
 ## screenshots
 
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/galpao.png)
-![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/lajes.png)
+#![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/lajes.png)
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/viga2D.png)
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/vigas3D.png)
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/screenshots/portico3D.png)
