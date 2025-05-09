@@ -19,7 +19,7 @@ The goal is to provide engineers and engineering students with a powerful and ea
 ![image](https://github.com/user-attachments/assets/49a95a44-0871-43af-80db-6a8705ad25ab)
 ![image](https://github.com/user-attachments/assets/3fc213eb-336f-4926-9b6b-e3b78e68d1bb)
 
-Draftly count weight of steel structure members
+Draftly count the weight of steel structure members
 ![image](https://github.com/user-attachments/assets/fa75b532-2ef5-4548-a4e9-991591342804)
 
 
