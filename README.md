@@ -80,7 +80,7 @@ You can see more about the tools in these videos:
 
 * StructureTools - Alpha Version - Workbench Tools and Workflow: https://www.youtube.com/watch?v=AicdjiOc61k
 * StructureTools - Alpha Version - Calculation of forces of simply supported beams: https://www.youtube.com/watch?v=Ig0SyqJao0Q
-* StructureTools -  Structure Tool in Freecad: how to use:  (https://github.com/chantran22/StructureTools_replica/blob/main/docs/struc_tool.pdf)
+* StructureTools -  Structure Tool in Freecad: how to use?  (https://github.com/chantran22/StructureTools_replica/blob/main/docs/struc_tool.pdf)
 * StructureTools - Demo model examples (https://github.com/chantran22/StructureTools_replica/blob/main/docs/New%20folder/)
 
 ## Development
