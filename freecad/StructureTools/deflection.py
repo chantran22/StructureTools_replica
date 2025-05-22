@@ -206,28 +206,17 @@ class Deflection:
 	 	listWire = []
 	 	for i, value in enumerate(values):
 			
-	# 		# The value itself determines the height position
 	 		valueString = listMatrix[i] * -1
 	 		string = f"{valueString:.{precision}e}"
-			
-	# 		# X position based on distance multiplier
+
 	 		x = dist * i
-			
-	# 		# No need for offset or conditional adjustment
-	# 		# This is the change you wanted - positioning directly based on value
 	 		y = value * scale
-			
-	# 		# Create text as wire
+
 	 		text = Part.makeWireString(string, pathFont, fontHeight)
 	 		for wires in text:
 	 			for wire in wires:
-	# 				# Rotate around X axis by 90 degrees
 	 				wire = wire.rotated(FreeCAD.Vector(0,0,0), FreeCAD.Vector(1,0,0), 90)
-					
-	 				# Translate to correct position, using value directly for z-coordinate
 	 				wire = wire.translate(FreeCAD.Vector(x, 0, y))
-					
-	 				# Add to list of wires
 	 				listWire += [wire]
 		
 	 	return listWire
@@ -249,7 +238,7 @@ class Deflection:
 			coordinates = self.generateCoordinates(ordinates, dist)
 			faces = self.generateWires(coordinates)
 			#faces = self.generateFaces(coordinates)
-			texts = self.makeText(values, matrix[i], dist, fontHeight, precision)
+			texts = self.makeText(values, matrix[i], dist, fontHeight, precision,escale)
 			
 			# Posiciona o diagrama
 			dx = p2[0] - p1[0]
