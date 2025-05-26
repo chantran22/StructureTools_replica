@@ -53,7 +53,8 @@ class StructureTools(Gui.Workbench):
 		from freecad.StructureTools import Copymemberprops
 		from freecad.StructureTools import Copyload
 		from freecad.StructureTools import Copysupport  
-		from freecad.StructureTools import deflection
+		from freecad.StructureTools import deflection 
+		from freecad.StructureTools import import_section
         
 
 		
@@ -67,7 +68,7 @@ class StructureTools(Gui.Workbench):
 		self.appendToolbar('StructureLoad', ["load_distributed","load_nodal"])
 		self.appendToolbar('StructureTools', ["member", "suport", "section", "material"])
 		self.appendToolbar('StructureResults', ["calc","diagram"])
-		self.appendMenu('StructureTools',["load_distributed", "Copyload", "load_nodal","member", "Copymemberprops" ,"suport", "Copysupport", "section", "material", "calc", "diagram", "deflection"])
+		self.appendMenu('StructureTools',["load_distributed", "Copyload", "load_nodal","member", "Copymemberprops" ,"suport", "Copysupport", "section", "import_section", "material", "calc", "diagram", "deflection"])
 
 	def Activated(self):
 		'''
