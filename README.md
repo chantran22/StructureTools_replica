@@ -75,7 +75,7 @@ The StructureTools workbench is still under development and is constantly changi
 
 ![image](https://github.com/user-attachments/assets/0ae870d8-34d9-40dd-8e81-1b4649ffd968)
 
-**Import section** –   to import section properties from txt file to model (not need to define section from sketch). Also can self-make a library section propeties and once need then load to model
+**Import section** –   to import section properties from txt file to model (not need to define section from sketch). Also can self-make a library section propeties and once need then load to model. Format section properties see snapshot below
 
 ![image](https://github.com/user-attachments/assets/9e991e05-20f3-4022-bd3a-e4843d35a1e1)
 
