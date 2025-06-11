@@ -65,7 +65,7 @@ The StructureTools workbench is still under development and is constantly changi
 
 **Diagram** – generates the effort diagrams based on the Calc object. With this tool, it is possible to graphically view the diagram of the efforts of the same on the axis of the element itself. The tool has parameters for scale, color, text size, all to facilitate the visualization and interpretation of the results. It is possible to draw the diagram of individual elements or of the entire structure.
 
-## Additional tools
+## Additional tools & Update
 
 **Copy load value** –  With this tool, to copy value from distribute selected one to others --> reduce time for change one by one
 
