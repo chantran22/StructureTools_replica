@@ -2,7 +2,7 @@
 
 ![](https://github.com/maykowsm/StructureTools/blob/main/freecad/StructureTools/resources/ui/img/img-1.png)
 
-This is a workbench for FreeCAD that implements a set of tools for modeling and analyzing structural stresses, similar to analysis software such as SAP2000, Cype3D, SkyCiv, EdiLus, among many others.
+This FreeCAD workbench provides a comprehensive suite of tools for modeling and analyzing structural stresses.Its toolkit mirrors the capabilities of industry-standard software such as SAP2000, Cype3D, and SkyCiv, and integrates directly within the FreeCAD environment.
 
 The goal is to provide engineers and engineering students with a powerful and easy-to-use open source tool. Fully integrated with the existing tools in FreeCAD.
 
