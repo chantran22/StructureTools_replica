@@ -5,6 +5,7 @@
 This FreeCAD workbench provides a comprehensive suite of tools for modeling and analyzing structural stresses. Its toolkit mirrors the capabilities of industry-standard software such as SAP2000, Cype3D, and SkyCiv, and integrates directly within the FreeCAD environment.
 
 The goal is to provide engineers and engineering students with a powerful and easy-to-use open source tool. 
+
 **Note:** The tools developed are limited to modeling, calculation and analysis of stresses in structural elements. The focus is not on developing tools for dimensioning these elements. The dimensioning will be handled by another workbench that I am developing in parallel to this one.
 
 ## screenshots
