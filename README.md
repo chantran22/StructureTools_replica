@@ -79,7 +79,7 @@ The StructureTools workbench is still under development and is constantly changi
 
 ![image](https://github.com/user-attachments/assets/9e991e05-20f3-4022-bd3a-e4843d35a1e1)
 
-
+**Update makeArrow** - Change this to reduce time redraw nodal load, distributed load in Frecad, especially complicated model got many frames
 
 You can see more about the tools in these videos:
 
