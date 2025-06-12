@@ -42,15 +42,35 @@ class LoadNodal:
 
     # Desenha a forma da seta levando em conta a escala informada
     def makeArrow(self, obj, load):
-        radiusCone = 5
-        heightCone = 20
-        heightCylinder = 30
-        radiusCylinder = 2
+        w1 = 5       # triangle base width
+        h1 = 20      # triangle height
+        heightLine = 30
+        shaft_width = 0.5  # width of rectangular shaft
+        k = obj.ScaleDraw * load / 1_000_000
 
-        cone = Part.makeCone(0 ,radiusCone * obj.ScaleDraw * load/1000000, heightCone * obj.ScaleDraw * load/1000000)
-        cylinder = Part.makeCylinder(radiusCylinder * obj.ScaleDraw * load/1000000, heightCylinder * obj.ScaleDraw * load/1000000)        
-        cylinder.translate(FreeCAD.Vector(0,0, heightCone * obj.ScaleDraw * load/1000000))
-        return Part.makeCompound([cone, cylinder])
+        # Triangle in YZ plane
+        pts = [
+            Vector(0, 0, 0),
+            Vector(0, -w1 / 2 * k, h1 * k),
+            Vector(0,  w1 / 2 * k, h1 * k),
+            Vector(0, 0, 0)
+        ]
+        triangle_wire = Part.makePolygon(pts)
+        triangle_face = Part.Face(triangle_wire)
+
+        # Rectangular shaft face (thin vertical face in YZ plane)
+        shaft_top = h1 * k
+        shaft_pts = [
+            Vector(0, -shaft_width / 2 * k, shaft_top),
+            Vector(0,  shaft_width / 2 * k, shaft_top),
+            Vector(0,  shaft_width / 2 * k, (shaft_top + heightLine * k)),
+            Vector(0, -shaft_width / 2 * k, (shaft_top + heightLine * k)),
+            Vector(0, -shaft_width / 2 * k, shaft_top)
+        ]
+        shaft_wire = Part.makePolygon(shaft_pts)
+        shaft_face = Part.Face(shaft_wire)
+
+        return Part.makeCompound([triangle_face, shaft_face])
     
     
     def execute(self, obj):        
