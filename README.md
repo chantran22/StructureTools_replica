@@ -79,6 +79,7 @@ The StructureTools workbench is still under development and is constantly changi
 
 ![image](https://github.com/user-attachments/assets/5b9bb5dc-6755-446f-9969-1a002290be8c)
 
+**Color section** –   key-in name section then specify color for section presented; this way can verify section assignment by visual
 
 
 **Update makeArrow** - Change this to reduce time redraw nodal load, distributed load in Frecad, especially complicated model got many frames
