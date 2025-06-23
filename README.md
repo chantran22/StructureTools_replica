@@ -77,7 +77,8 @@ The StructureTools workbench is still under development and is constantly changi
 
 **Import section** –   to import section properties from txt file to model (not need to define section from sketch). Also can self-make a library section propeties and once need then load to model. Format section properties see snapshot below
 
-![image](https://github.com/user-attachments/assets/7f2a8b30-60a1-4b0e-8784-5dacb35e51c0)
+![image](https://github.com/user-attachments/assets/5b9bb5dc-6755-446f-9969-1a002290be8c)
+
 
 
 **Update makeArrow** - Change this to reduce time redraw nodal load, distributed load in Frecad, especially complicated model got many frames
