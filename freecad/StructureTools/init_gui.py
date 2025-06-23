@@ -68,8 +68,10 @@ class StructureTools(Gui.Workbench):
 		self.appendToolbar('StructureLoad', ["load_distributed","load_nodal"])
 		self.appendToolbar('StructureTools', ["member", "suport", "section", "material"])
 		self.appendToolbar('StructureResults', ["calc","diagram"])
-		self.appendMenu('StructureTools',["load_distributed", "Copyload", "load_nodal","member", "Copymemberprops" ,"suport", "Copysupport", "section", "import_section", "material", "calc", "diagram", "deflection"])
+		self.appendMenu('StructureTools',["load_distributed", "Copyload", "load_nodal","member", "Copymemberprops" ,"suport", "Copysupport", "section", "material", "calc", "diagram", "deflection"])
+                self.appendMenu('Add-ins',[ "import_section","ImportPoints", "Color_Section", "Weight_structure", "Weightall_structure"])
 
+	
 	def Activated(self):
 		'''
 		code which should be computed when a user switch to this workbench
