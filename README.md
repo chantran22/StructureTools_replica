@@ -92,7 +92,7 @@ The StructureTools workbench is still under development and is constantly changi
 
 **Update makeArrow** - Change this to reduce time redraw nodal load, distributed load in Frecad, especially complicated model got many frames
 
-**Add reactions/ reaction table** - Code from **buildsmart888** - to show /retrieve reaction value at supports location
+**Add reactions/ reaction table** - Code from **buildsmart888 (Structure Tools - Enhance )** - to show /retrieve reaction value at supports location
 
 <img width="347" height="267" alt="image" src="https://github.com/user-attachments/assets/a30621f8-cbd1-4013-a833-dd9ec82f4124" />
 
