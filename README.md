@@ -83,7 +83,7 @@ The StructureTools workbench is still under development and is constantly changi
 
 **Color for section** –   key-in name section then specify color for section presented; this way can verify section assignment by visual
 
-<img width="694" height="348" alt="image" src="https://github.com/user-attachments/assets/c6139750-6860-4517-bce9-d125db98e49d" />
+<img width="594" height="248" alt="image" src="https://github.com/user-attachments/assets/c6139750-6860-4517-bce9-d125db98e49d" />
 
 **Weight by section** –   this for quickly count the total weight for section assignment which applied on lines/ wires
 
