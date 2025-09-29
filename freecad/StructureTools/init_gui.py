@@ -52,7 +52,10 @@ class StructureTools(Gui.Workbench):
 		from freecad.StructureTools import diagram     
 		from freecad.StructureTools import Copymemberprops
 		from freecad.StructureTools import Copyload
-		from freecad.StructureTools import Copysupport  
+		from freecad.StructureTools import Copysupport
+
+		from freecad.StructureTools import reaction_table
+		from freecad.StructureTools import reaction1_results
 		from freecad.StructureTools import deflection
 		from freecad.StructureTools import weight_section
 		from freecad.StructureTools import colorby_section
