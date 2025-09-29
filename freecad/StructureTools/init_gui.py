@@ -74,7 +74,8 @@ class StructureTools(Gui.Workbench):
 		self.appendToolbar('StructureTools', ["member", "suport", "section", "material"])
 		self.appendToolbar('StructureResults', ["calc","diagram"])
 		self.appendMenu('StructureTools',["load_distributed", "Copyload", "load_nodal","member", "Copymemberprops" ,"suport", "Copysupport", "section", "material", "calc", "diagram", "deflection"])
-                self.appendMenu('Add-ins',[ "import_section", "Color_Section", "Weight_structure", "Weightall_structure"])
+        
+		self.appendMenu('Add-ins',[ "import_section", "Color_Section", "Weight_structure", "Weightall_structure"])
 
 	
 	def Activated(self):
