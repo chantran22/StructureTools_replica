@@ -77,6 +77,8 @@ The StructureTools workbench is still under development and is constantly changi
 
 **Import section** –   to import section properties from txt file to model (not need to define section from sketch). Also can self-make a library section propeties and once need then load to model. Format section properties see snapshot below
 
+<img width="231" height="121" alt="image" src="https://github.com/user-attachments/assets/3506278c-de72-407c-920a-91c972e09718" />
+
 ![image](https://github.com/user-attachments/assets/5b9bb5dc-6755-446f-9969-1a002290be8c)
 
 **Color for section** –   key-in name section then specify color for section presented; this way can verify section assignment by visual
