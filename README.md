@@ -100,6 +100,11 @@ The StructureTools workbench is still under development and is constantly changi
 
 <img width="260" height="171" alt="image" src="https://github.com/user-attachments/assets/6501a14e-c001-4718-adc4-aa49a696ef5d" />
 
+Frame3dd use file extension *.3dd or txt file which define nodes/ members like pic below
+
+<img width="478" height="622" alt="image" src="https://github.com/user-attachments/assets/28593993-6761-4fbd-a022-55f95046ef9c" />
+
+
 You can see more about the tools in these videos:
 
 * StructureTools - Alpha Version - Workbench Tools and Workflow: https://www.youtube.com/watch?v=AicdjiOc61k
