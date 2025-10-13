@@ -93,6 +93,7 @@ The StructureTools workbench is still under development and is constantly changi
 **Update makeArrow** - Change this to reduce time redraw nodal load, distributed load in Frecad, especially complicated model got many frames
 
 **Add reactions/ reaction table** - Code modified from **buildsmart888 (Structure Tools - Enhance ) (https://github.com/buildsmart888/StructureTools-Enhanced)** - to show /retrieve reaction value at supports location
+***Usage** select Calc() 
 
 <img width="347" height="267" alt="image" src="https://github.com/user-attachments/assets/a30621f8-cbd1-4013-a833-dd9ec82f4124" />
 
@@ -108,6 +109,7 @@ With this it may simlify making model by draw or sketch in Structure Tool, inste
 
 **Utility ratio** - Computing/ shown utility ration on each member
 UR = N/([N]*phi) + My/([My]*phi) + Mz/([Mz]*phi)
+***Usage** select Calc() then select members
 
 <img width="195" height="278" alt="image" src="https://github.com/user-attachments/assets/4bef15e4-bedf-4798-adb7-361d902375f8" />
 
