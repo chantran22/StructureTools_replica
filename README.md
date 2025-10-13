@@ -106,6 +106,11 @@ Frame3dd use file extension *.3dd or txt file which define nodes/ members like p
 
 With this it may simlify making model by draw or sketch in Structure Tool, instead just key in coords, member used coords
 
+**Utility ratio** - Computing/ shown utility ration on each member
+
+<img width="295" height="378" alt="image" src="https://github.com/user-attachments/assets/4bef15e4-bedf-4798-adb7-361d902375f8" />
+
+
 You can see more about the tools in these videos:
 
 * StructureTools - Alpha Version - Workbench Tools and Workflow: https://www.youtube.com/watch?v=AicdjiOc61k
