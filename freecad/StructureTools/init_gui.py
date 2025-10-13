@@ -55,6 +55,7 @@ class StructureTools(Gui.Workbench):
 		from freecad.StructureTools import Copysupport
 
 		from freecad.StructureTools import Frame3DD_imptxt
+		from freecad.StructureTools import utility_ratio
 		from freecad.StructureTools import reaction_table
 		from freecad.StructureTools import reaction1_results
 		from freecad.StructureTools import deflection
@@ -76,7 +77,7 @@ class StructureTools(Gui.Workbench):
 		self.appendToolbar('StructureResults', ["calc","diagram"])
 		self.appendMenu('StructureTools',["load_distributed", "Copyload", "load_nodal","member", "Copymemberprops" ,"suport", "Copysupport", "section", "material",
 										  "ReactionTablePanel", "ReactionResults",
-										  "calc", "diagram", "deflection"])
+										  "calc", "diagram", "deflection", "utility_ratio_visual"	])
         
 		self.appendMenu('Add-ins',[ "import_section", "Color_Section", "Weight_structure", "Weightall_structure", "Frame3DD_Import"		])
 
