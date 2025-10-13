@@ -106,7 +106,7 @@ Frame3dd use file extension *.3dd or txt file which define nodes/ members like p
 
 <img width="478" height="622" alt="image" src="https://github.com/user-attachments/assets/28593993-6761-4fbd-a022-55f95046ef9c" />
 
-With this it may simlify making model by draw or sketch in Structure Tool, instead just key in coords, member used coords
+With this, instead of making model by draw or sketch in Structure Tool, it may simlify by input in coords, member used coords
 
 **Utility ratio** - Computing/ shown utility ration on each member
 UR = N/([N]*phi) + My/([My]*phi) + Mz/([Mz]*phi)
