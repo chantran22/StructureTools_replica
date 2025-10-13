@@ -109,7 +109,7 @@ With this it may simlify making model by draw or sketch in Structure Tool, inste
 **Utility ratio** - Computing/ shown utility ration on each member
 UR = N/([N]*phi) + My/([My]*phi) + Mz/([Mz]*phi)
 
-<img width="295" height="378" alt="image" src="https://github.com/user-attachments/assets/4bef15e4-bedf-4798-adb7-361d902375f8" />
+<img width="195" height="278" alt="image" src="https://github.com/user-attachments/assets/4bef15e4-bedf-4798-adb7-361d902375f8" />
 
 
 You can see more about the tools in these videos:
