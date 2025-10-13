@@ -107,6 +107,7 @@ Frame3dd use file extension *.3dd or txt file which define nodes/ members like p
 With this it may simlify making model by draw or sketch in Structure Tool, instead just key in coords, member used coords
 
 **Utility ratio** - Computing/ shown utility ration on each member
+UR = N/([N]*phi) + My/([My]*phi) + Mz/([Mz]*phi)
 
 <img width="295" height="378" alt="image" src="https://github.com/user-attachments/assets/4bef15e4-bedf-4798-adb7-361d902375f8" />
 
@@ -115,6 +116,7 @@ You can see more about the tools in these videos:
 
 * StructureTools - Alpha Version - Workbench Tools and Workflow: https://www.youtube.com/watch?v=AicdjiOc61k
 * StructureTools - Alpha Version - Calculation of forces of simply supported beams: https://www.youtube.com/watch?v=Ig0SyqJao0Q
+* StructureTools forum -  https://forum.freecad.org/viewtopic.php?t=94995&start=20
 * StructureTools -  Structure Tool in Freecad: how to use? (https://github.com/chantran22/StructureTools_replica/blob/main/docs/struc_tool.pdf)
 * StructureTools - Demo model examples (https://github.com/chantran22/StructureTools_replica/blob/main/docs/New%20folder/)
 
